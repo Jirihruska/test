@@ -5,9 +5,9 @@ import MenuIcon from '@mui/icons-material/Menu';
 
 const Header = () => {
   return (
-    <Grid sx={{ alignItems: 'center', justifyContent: 'center', direction: 'row' }} p={2} bgcolor={amber[500]} container>
+    <Grid sx={{ alignItems: 'center', justifyContent: 'center', direction: 'row' }} p={2} bgcolor={amber[800]} container>
       <Grid item xs={11}>
-        <Box fontSize={24}>Some title</Box>
+        <Box color='white' fontSize={24}>APP</Box>
       </Grid>
       <Grid sx={{ display: "flex", justifyContent: "center" }} alignItems='center' item xs={1}>
         <MenuIcon fontSize='large' />
